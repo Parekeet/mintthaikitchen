@@ -1,0 +1,99 @@
+<!-- <div id="menu">
+
+  <h1>Menu</h1>
+
+  <ul>
+    <li style="display: inline-block;"><a ng-click="vm.toggleValue = !vm.toggleValue" ng-show="vm.toggleValue">Lunch Menu</a></li>
+    <li style="display: inline-block;"><a ng-click="vm.toggleValue = !vm.toggleValue" ng-hide="vm.toggleValue">Dinner Menu</a></li>
+  </ul>
+
+  <div id="lunch" ng-hide="vm.toggleValue">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-lg-2">
+          <nav class="navbar navbar-default navbar-fixed-side">
+            <ul>
+              <li><a ui-sref="appetizers-lunch">Apps</a></li>
+              <li><a href="#noodles-lunch">Noodles</a></li>
+              <li><a ui-sref="soups-lunch">Soups</a></li>
+              <li><a href="#rice-lunch">Rice</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-sm-9 col-lg-10">
+          <div id="appetizers-lunch">
+            <h3>Lunch</h3>
+            <h1>LUNCH APPETIZERS</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+          </div>
+          <div id="noodles-lunch">
+            <h1>LUNCH Noodles</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+          </div>
+          <div id="soups-lunch">
+            <h1>LUNCH Soups</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+          </div>
+          <div id="rice-lunch">
+            <h1>LUNCH Rice</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="dinner" ng-show="vm.toggleValue">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-lg-2">
+          <nav class="navbar navbar-default navbar-fixed-side">
+            <ul>
+              <li><a ui-sref="appetizer-dinner">Apps</a></li>
+              <li><a href="#noodles-dinner">Noodles</a></li>
+              <li><a href="#soups-dinner">Soups</a></li>
+              <li><a href="#rice-dinner">Rice</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-sm-9 col-lg-10">
+          <h3>Dinner</h3>
+          <div id="appetizers-dinner">
+            <h1>DINNER APPETIZERS</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+          </div>
+          <div id="noodles-dinner">
+            <h1>DINNER Noodles</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+          </div>
+          <div id="soups-dinner">
+            <h1>DINNER Soups</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+          </div>
+          <div id="rice-dinner">
+            <h1>DINNER Rice</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eius expedita inventore hic perferendis nesciunt doloribus, rerum tenetur tempora optio quas eaque voluptate! Vitae saepe explicabo sunt id laboriosam repudiandae.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+ -->
