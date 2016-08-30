@@ -27,7 +27,7 @@
         templateUrl: "js/dinner.html"
       })
       .state("contact", {
-        url: "/visit",
+        url: "/contact",
         templateUrl: "js/contact.html"
       });
     $urlRouterProvider.otherwise("/");
