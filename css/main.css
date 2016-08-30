@@ -1,6 +1,19 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
 body {
   padding-top: 16vh;
   background-color: #e5e5e5;
+}
+
+main {
+  width: 100%;
+    position: fixed;
+    top: 100px;
+    bottom: 0;
+    overflow: auto;
 }
 
 @font-face {
@@ -18,23 +31,21 @@ body {
     src: url(manifesto.ttf);
 }
 
-@font-face {
-    font-family: zwodrei;
-    src: url(zwodrei.ttf);
-}
-
 p {
   font-size: 18px;
 }
 
 .navbar {
   min-height: 100px;
+  height: 100px;
   float: none;
   text-align: center;
   width: 100%;
   border: none;
   margin: 0;
   background-color: white;
+  position: fixed;
+  top: 0;
 }
 
 .navbar-header {
@@ -58,16 +69,15 @@ p {
   display: inline-block;
   position: relative;
   padding-bottom: 3px;
-
   margin: 0 30px;
   padding: 0;
   width: 165px;
   font-family: moderne;
-  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 3s; /* Firefox < 16 */
-        -ms-animation: fadein 3s; /* Internet Explorer */
-         -o-animation: fadein 3s;
-            animation: fadein 3s;
+  -webkit-animation: fadein 3s;
+  -moz-animation: fadein 3s;
+  -ms-animation: fadein 3s;
+  -o-animation: fadein 3s;
+  animation: fadein 3s;
 }
 
 .navbar-nav li a:after {
@@ -171,6 +181,7 @@ p {
   font-style: bold;
   color: red;
   font-family: moderne;
+  padding-top: 30px;
 }
 
 .time {
@@ -180,7 +191,6 @@ p {
 }
 
 .choice-of-meat {
-  /*border: 1px solid black;*/
   text-align: center;
   padding: 5px;
   }
@@ -216,20 +226,6 @@ p {
 .warning {
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
