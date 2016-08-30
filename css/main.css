@@ -1,11 +1,16 @@
 @font-face {
-    font-family: pangram-bold;
-    src: url(pangram-bold.otf);
+  font-family: pangram;
+  src: url(pangram.otf);
+}
+
+@font-face {
+  font-family: keisatsu;
+  src: url(keisatsu.ttf);
 }
 
 html, body {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 body {
@@ -15,14 +20,26 @@ body {
 
 main {
   width: 100%;
-    position: fixed;
-    top: 100px;
-    bottom: 0;
-    overflow: auto;
+  position: fixed;
+  top: 100px;
+  bottom: 0;
+  overflow: auto;
 }
 
 p {
   font-size: 20px;
+}
+
+.header {
+  font-style: bold;
+  color: red;
+  font-family: keisatsu;
+  padding-top: 30px;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: keisatsu;
 }
 
 /* N A V B A R */
@@ -47,13 +64,13 @@ p {
 
 .home-button {
   color: black;
-  font-size: 35px;
+  font-size: 45px;
 }
 
 .navbar-nav {
   float: none;
   display: inline-block;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .navbar-nav li a {
@@ -63,7 +80,7 @@ p {
   margin: 0 30px;
   padding: 0;
   width: 165px;
-  font-family: pangram-bold;
+  font-family: keisatsu;
   -webkit-animation: fadein 3s;
   -moz-animation: fadein 3s;
   -o-animation: fadein 3s;
@@ -86,30 +103,23 @@ p {
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 @-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
+  from { opacity: 0; }
     to   { opacity: 1; }
 }
 
 @-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-.header {
-  font-style: bold;
-  color: red;
-  font-family: pangram-bold;
-  padding-top: 30px;
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 /* H O M E P A G E */
@@ -123,7 +133,7 @@ p {
 /* A B O U T */
 
 .about-content {
-  padding: 30px 20%;
+  padding: 15px 20%;
 }
 
 /* L U N C H  /  D I N N E R */
@@ -131,7 +141,8 @@ p {
 .time {
   color: black;
   font-weight: bolder;
-  font-size: 17px;
+  font-size: 20px;
+  font-family: pangram;
 }
 
 .choice-of-meat {
@@ -148,7 +159,8 @@ p {
 
 h3 {
   padding-bottom: 15px;
-  font-family: pangram-bold;
+  font-family: keisatsu;
+  font-size: 35px;
 }
 
 section {
@@ -165,19 +177,21 @@ section {
 
 .english-name,
 .thai-name {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .description {
+  font-size: 18px;
   color: grey;
 }
 
 .price {
   float: right;
+  font-size: 15px;
 }
 
 .drink-name {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .table {
