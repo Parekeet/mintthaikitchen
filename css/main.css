@@ -52,7 +52,6 @@ h2 {
   width: 100%;
   border: none;
   margin: 0;
-  background-color: white;
   position: fixed;
   top: 0;
 }
@@ -63,7 +62,6 @@ h2 {
 }
 
 .home-button {
-  color: black;
   font-size: 45px;
 }
 
@@ -125,8 +123,8 @@ h2 {
 /* H O M E P A G E */
 
 .homebg {
-  background-image: url("../assets/home_bg.jpg");
-  height: 83vh;
+  background-image: url("../assets/mint_bg.jpg");
+  height: 100%;
   background-size: cover;
 }
 
