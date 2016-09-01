@@ -1,11 +1,11 @@
 @font-face {
-  font-family: pangram;
-  src: url(pangram.otf);
+  font-family: font_one;
+  src: url(font_one.otf);
 }
 
 @font-face {
-  font-family: keisatsu;
-  src: url(keisatsu.ttf);
+  font-family: font_two;
+  src: url(font_two.otf);
 }
 
 html, body {
@@ -33,20 +33,18 @@ p {
 .header {
   font-style: bold;
   color: red;
-  font-family: keisatsu;
   padding-top: 30px;
 }
 
 h2 {
-  font-size: 40px;
-  font-family: keisatsu;
+  font-size: 35px;
+  font-family: font_one;
 }
 
 /* N A V B A R */
 
 .navbar {
   min-height: 100px;
-  height: 100px;
   float: none;
   text-align: center;
   width: 100%;
@@ -71,14 +69,19 @@ h2 {
   font-size: 25px;
 }
 
+.navbar-nav li {
+  padding: 5px 0;
+}
+
 .navbar-nav li a {
+  color: black !important;
   display: inline-block;
   position: relative;
   padding-bottom: 3px;
   margin: 0 30px;
   padding: 0;
   width: 165px;
-  font-family: keisatsu;
+  font-family: font_one;
   -webkit-animation: fadein 3s;
   -moz-animation: fadein 3s;
   -o-animation: fadein 3s;
@@ -89,7 +92,7 @@ h2 {
   content: '';
   display: block;
   margin: auto;
-  height: 3px;
+  height: 2px;
   width: 0px;
   background: transparent;
   transition: width .5s ease, background-color .5s ease;
@@ -126,12 +129,54 @@ h2 {
   background-image: url("../assets/mint_bg.jpg");
   height: 100%;
   background-size: cover;
+  position: relative;
+}
+
+.welcome {
+  text-align: center;
+  color: white;
+  font-family: font_one;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 430px;
+  -webkit-animation: fadein 4s;
+  -moz-animation: fadein 4s;
+  -o-animation: fadein 4s;
+  animation: fadein 4s;
+}
+
+.one {
+  font-size: 50px;
+  font-family: font_two;
+  height: 50px;
+}
+
+.two {
+  font-size: 120px;
+}
+
+.three {
+  font-size: 30px;
+  letter-spacing: 20px;
+}
+
+.four {
+  font-size: 30px;
+  padding-top: 20px;
+  letter-spacing: 5px;
+}
+
+.glyphicon-leaf {
+  font-size: 40px;
+  padding-top: 20px;
 }
 
 /* A B O U T */
 
 .about-content {
-  padding: 15px 20%;
+  padding: 40px 20%;
 }
 
 /* L U N C H  /  D I N N E R */
@@ -140,7 +185,7 @@ h2 {
   color: black;
   font-weight: bolder;
   font-size: 20px;
-  font-family: pangram;
+  font-family: font_one;
 }
 
 .choice-of-meat {
@@ -157,8 +202,8 @@ h2 {
 
 h3 {
   padding-bottom: 15px;
-  font-family: keisatsu;
-  font-size: 35px;
+  font-family: font_one;
+  font-size: 25px;
 }
 
 section {
@@ -217,7 +262,12 @@ section {
 
 .address{
   font-size: 25px;
-  padding: 30px;
+  padding: 20px;
+}
+
+.phone {
+  font-style: italic;
+  color: grey;
 }
 
 .hours {
@@ -239,7 +289,7 @@ h5 {
   width: 650px;
   height: 650px;
   border-radius: 50%;
-  background-image: url("../assets/map_location.png");
+  background-image: url("../assets/mint_location.png");
   padding: 2px;
   margin: auto;
   display: block;
