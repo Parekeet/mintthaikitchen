@@ -77,7 +77,6 @@ h2 {
   color: black !important;
   display: inline-block;
   position: relative;
-  padding-bottom: 3px;
   margin: 0 30px;
   padding: 0;
   width: 165px;
@@ -88,19 +87,12 @@ h2 {
   animation: fadein 3s;
 }
 
-.navbar-nav li a:after {
-  content: '';
-  display: block;
-  margin: auto;
-  height: 2px;
-  width: 0px;
-  background: transparent;
-  transition: width .5s ease, background-color .5s ease;
+.navbar-nav li a.navlink:hover {
+  text-decoration: underline;
 }
 
-.navbar-nav li a:hover:after {
-  width: 100%;
-  background: red;
+.navbar-nav li a.navlink:focus {
+  text-decoration: underline;
 }
 
 @keyframes fadein {
