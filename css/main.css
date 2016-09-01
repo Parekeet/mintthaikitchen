@@ -1,21 +1,11 @@
 @font-face {
-  font-family: pangram;
-  src: url(pangram.otf);
+  font-family: font_one;
+  src: url(font_one.otf);
 }
 
 @font-face {
-  font-family: mekar;
-  src: url(mekar.otf);
-}
-
-@font-face {
-  font-family: jaap_enh;
-  src: url(jaap_enh.otf);
-}
-
-@font-face {
-  font-family: jaap_sub;
-  src: url(jaap_sub.otf);
+  font-family: font_two;
+  src: url(font_two.otf);
 }
 
 html, body {
@@ -48,7 +38,7 @@ p {
 
 h2 {
   font-size: 35px;
-  font-family: pangram;
+  font-family: font_one;
 }
 
 /* N A V B A R */
@@ -91,7 +81,7 @@ h2 {
   margin: 0 30px;
   padding: 0;
   width: 165px;
-  font-family: pangram;
+  font-family: font_one;
   -webkit-animation: fadein 3s;
   -moz-animation: fadein 3s;
   -o-animation: fadein 3s;
@@ -145,7 +135,7 @@ h2 {
 .welcome {
   text-align: center;
   color: white;
-  font-family: pangram;
+  font-family: font_one;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -159,7 +149,7 @@ h2 {
 
 .one {
   font-size: 50px;
-  font-family: mekar;
+  font-family: font_two;
   height: 50px;
 }
 
@@ -195,7 +185,7 @@ h2 {
   color: black;
   font-weight: bolder;
   font-size: 20px;
-  font-family: pangram;
+  font-family: font_one;
 }
 
 .choice-of-meat {
@@ -212,7 +202,7 @@ h2 {
 
 h3 {
   padding-bottom: 15px;
-  font-family: pangram;
+  font-family: font_one;
   font-size: 25px;
 }
 
@@ -299,7 +289,7 @@ h5 {
   width: 650px;
   height: 650px;
   border-radius: 50%;
-  background-image: url("../assets/map_location.png");
+  background-image: url("../assets/mint_location.png");
   padding: 2px;
   margin: auto;
   display: block;
