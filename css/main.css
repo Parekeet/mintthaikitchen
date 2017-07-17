@@ -301,6 +301,30 @@ h5 {
   padding: 15px;
 }
 
+.delivery {
+  font-family: font_one;
+  color: red;
+}
 
+.delivery:hover {
+  color: darkslategrey;
+  text-decoration: none;
+}
+
+.deliveryText {
+  color: red;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.deliveryText:hover {
+  color: darkslategrey;
+  text-decoration: none;
+}
+
+
+.delivery i:hover {
+  color: darkslategrey;
+}
 
 
