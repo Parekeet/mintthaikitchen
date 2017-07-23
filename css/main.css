@@ -41,6 +41,16 @@ h2 {
   font-family: font_one;
 }
 
+.alert{
+  position: fixed;
+  bottom: 20px;
+  z-index: 1000000000;
+  height: 180px;
+  width: 80%;
+  margin: 0 10%;
+  background-color: red;
+}
+
 /* N A V B A R */
 
 .navbar {
@@ -327,4 +337,8 @@ h5 {
   color: darkslategrey;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
 
