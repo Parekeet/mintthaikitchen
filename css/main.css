@@ -1,3 +1,9 @@
+.restaurant-contact-pic {
+  width: 400px;
+  height: 300px;
+  border: double white 10px;
+}
+
 @font-face {
   font-family: font_one;
   src: url(font_one.otf);
@@ -128,7 +134,8 @@ h2 {
 /* H O M E P A G E */
 
 .homebg {
-  background-image: url("../assets/mint_bg.jpg");
+  background-image: url("../assets/mint_bg_small.jpg");
+  /*background-image: url("../assets/mint_bg.jpg");*/
   height: 100%;
   background-size: cover;
   position: relative;
